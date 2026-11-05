@@ -19,6 +19,10 @@ python -m app.backend
 
 Open http://127.0.0.1:8501. The application creates synthetic sample records in `data/quality.db` on first launch.
 
+## Google Workspace automation
+
+A Google Apps Script reporting companion is available in [`google_apps_script/`](google_apps_script/README.md). It imports the dashboard CSV from Google Drive, validates metrics and builds a site summary in Google Sheets. Optional Monday scheduling is implemented. Google account authorization and live integration testing are still required.
+
 ## Tests
 
 ```bash
